@@ -15,3 +15,9 @@
 
 print(round(3.1)) # Rounds number down, can take second argument for nth digit rounding
 print(abs(-50)) # Returns absolute value
+
+print(bin(5)) # Returns binary value, base 2 math
+print(hex(5)) # Returns hex value, base 16 math
+
+
+print(int("0b101", 2)) # Returns binary back to "normal" number
