@@ -10,6 +10,23 @@ Code is interpreted or compiled, Python usually uses a interpreter but can also 
 When running python actually running cpython - written in c and python
 Python code > Interpreter > Byte code > CPYTHON VM > Machine Code (kinda like java)
 
+### Python Uses - Machine learning, scripts, web server, parsing tons of files
+
+## Python 2 vs Python 3
+
+Created in 1991, named after Monty Python
+Python 3 came out in 2008
+Python 3 introducing break changes, old codebases would break if updated
+
+## Learning Python
+
+Learn the terms - statements, variables, functions etc
+Learn the data types
+Learn the actions
+Best Practices
+Lists = Arrays
+Dictionary (Mappings, Hash Tables) = Object
+
 ## Python Syntax
 
 print() - Prints enclosed to screen
@@ -18,3 +35,5 @@ var = x - How to assign variables, variables have local scope to region, cant de
 concatenation - Similar to JS, just use "string" + var
 `#` - Used to comment python, single line
 docstring = Comments inside """Comment""" placed before or inside var/functions explaining what code does
+`"\n"` - new line
+`"\t"` - adds a tab
