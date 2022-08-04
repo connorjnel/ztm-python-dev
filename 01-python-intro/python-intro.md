@@ -37,11 +37,12 @@ concatenation - Similar to JS, just use "string" + var
 docstring = Comments inside """Comment""" placed before or inside var/functions explaining what code does
 `"\n"` - new line
 `"\t"` - adds a tab
+`type()` - Shows type of argument
 
 ## Python Fundamental Data Types
 
-int = Whole number
-float = Number with fractions
+int = integer = Whole number
+float = floating point number = Number with fractions
 bool = True or false
 str = String
 list = Basic array type
