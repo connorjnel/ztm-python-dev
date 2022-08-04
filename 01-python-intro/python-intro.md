@@ -37,3 +37,20 @@ concatenation - Similar to JS, just use "string" + var
 docstring = Comments inside """Comment""" placed before or inside var/functions explaining what code does
 `"\n"` - new line
 `"\t"` - adds a tab
+
+## Python Fundamental Data Types
+
+int = Whole number
+float = Number with fractions
+bool = True or false
+str = String
+list = Basic array type
+tuple =
+set =
+dict =
+
+## Python Classes - Custom Types
+
+## Python Specialized Data Types - Come from modules
+
+## None Data Type - Absent value, nothing (Null ?)
