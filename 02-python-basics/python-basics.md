@@ -47,3 +47,7 @@ Tip -> Variables can be reassigned
 ## Constants
 
 `PI = 3.14` -> When declaring use capital letters, can be reassigned.
+
+# Cheatsheet
+
+[Cheatsheet](https://zerotomastery.io/cheatsheets/python-cheat-sheet/#useful-libraries)
