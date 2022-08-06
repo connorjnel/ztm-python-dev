@@ -10,7 +10,7 @@ Code is interpreted or compiled, Python usually uses a interpreter but can also 
 When running python actually running cpython - written in c and python
 Python code > Interpreter > Byte code > CPYTHON VM > Machine Code (kinda like java)
 
-### Python Uses - Machine learning, scripts, web server, parsing tons of files
+## Python Uses - Machine learning, scripts, web server, parsing tons of files
 
 ## Python 2 vs Python 3
 
