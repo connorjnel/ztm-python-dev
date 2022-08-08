@@ -51,3 +51,18 @@ Tip -> Variables can be reassigned
 ## Cheatsheet
 
 [Cheatsheet](https://zerotomastery.io/cheatsheets/python-cheat-sheet/#useful-libraries)
+
+## Expression / Statement
+
+Expression - Piece of code that produces a value `iq/5`
+Statement - Line of code that performs a action `user_age = iq / 5`
+
+## Augmented assignment operator
+
+Assign new value without having to retype intitial value `some_value += 5`
+A initial value needs to be assigned first
+
+## Strings
+
+Any text contained in single or double quotes
+Python also allows three single quotes, can do multiple lines
