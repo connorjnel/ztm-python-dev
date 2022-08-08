@@ -16,3 +16,9 @@ lkmdfmngsodioijnsdaofkmlkj;ndfsg
 '''
 
 print(long_string)
+
+first_name = "jovan"
+last_name = "nel"
+full_name = first_name +  last_name
+
+print(full_name)
