@@ -80,3 +80,10 @@ Can change data type by using str, int, float etc.
 When using double quotes inside double quoted string need to prefix \ in front of the enclosed quotes ex. `"This is a \"hot\" day"`.
 `\t` = Adds a tab spacing
 `\n` = Moves code to new line
+
+## Formatted Strings
+
+When calling variables in string output can use f in beginning and encapsulate variables in curly brackets -
+ex. `print(f"hi {name}. You are {age} years old")`
+for python 2 use format instead.
+ex. `print("hi {}. You are {} years old".format("Johhny", "55"))`
