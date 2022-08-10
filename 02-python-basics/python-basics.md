@@ -87,3 +87,15 @@ When calling variables in string output can use f in beginning and encapsulate v
 ex. `print(f"hi {name}. You are {age} years old")`
 for python 2 use format instead.
 ex. `print("hi {}. You are {} years old".format("Johhny", "55"))`
+
+## String Index
+
+Strings are indexed, so can access specific letter with call using [],
+ex `print(string[0],string[1])`
+Can extend call using :, which will grab from start to end of two arguments
+ex `print(string[0:10])`
+Can add a stepover as well as argument, so instead of iterating by 1, steps over by argument
+ex `print(string[0:10:2])`
+Tip - If no argument provided uses default index values, so `[::1]` will execute and output whole string from start to end stepping by 1
+Tip - Can use negative value for step which will reverse string output, reverses order
+ex `print(string[::-1])`
