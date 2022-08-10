@@ -66,3 +66,17 @@ A initial value needs to be assigned first
 
 Any text contained in single or double quotes
 Python also allows three single quotes, can do multiple lines
+
+## String Concatenation
+
+Method used to add two strings together using + ex. `print("hello" + "there")`
+
+## Type conversions
+
+Can change data type by using str, int, float etc.
+
+## Escape Sequences
+
+When using double quotes inside double quoted string need to prefix \ in front of the enclosed quotes ex. `"This is a \"hot\" day"`.
+`\t` = Adds a tab spacing
+`\n` = Moves code to new line
