@@ -116,3 +116,10 @@ Methods that can be used have . before and then parentheses ()
 `.index()` - Find index location of argument and returns it
 `.counts()` - Counts occurences of argument
 `.replace("haha","lol")` - Changes occurence in string with second argument
+
+These dont change original string, they dont mutate it
+
+## Booleans
+
+Boolean value have to be capitalized, bool() also exists like string
+not keyword for opposite value

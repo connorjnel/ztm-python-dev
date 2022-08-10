@@ -44,18 +44,24 @@
 # print(string[0:10:2])
 # print(string[::-1])
 
-print(len("hahaha"))
+# print(len("hahaha"))
 
-list = ["apple", 3, True, "banana"]
+# list = ["apple", 3, True, "banana"]
 
-print(len(list))
+# print(len(list))
 
-quote = "to be or not be, that is the question"
+# quote = "to be or not be, that is the question"
 
-print(quote.upper())
-print(quote.capitalize())
-print(quote.lower())
-print(quote.index("be"))
-print(quote.find("be"))
-print(quote.count("be"))
-print(quote.replace("be", "before"))
+# print(quote.upper())
+# print(quote.capitalize())
+# print(quote.lower())
+# print(quote.index("be"))
+# print(quote.find("be"))
+# print(quote.count("be"))
+# print(quote.replace("be", "before"))
+
+happy = True
+
+print(not happy)
+
+print(bool(1))
