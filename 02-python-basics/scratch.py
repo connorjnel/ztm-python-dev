@@ -37,9 +37,25 @@
 # print("hi {1}. You are {0} years old".format("Johhny", "55")) # changing order with index values
 # print("hi {new_name}. You are {age} years old".format(new_name = "Sally", age=100)) # using new variables
 
-string = "abcdefghijklmnopqrstuvwxyz"
+# string = "abcdefghijklmnopqrstuvwxyz"
 
-print(string[0],string[1])
-print(string[0:10])
-print(string[0:10:2])
-print(string[::-1])
+# print(string[0],string[1])
+# print(string[0:10])
+# print(string[0:10:2])
+# print(string[::-1])
+
+print(len("hahaha"))
+
+list = ["apple", 3, True, "banana"]
+
+print(len(list))
+
+quote = "to be or not be, that is the question"
+
+print(quote.upper())
+print(quote.capitalize())
+print(quote.lower())
+print(quote.index("be"))
+print(quote.find("be"))
+print(quote.count("be"))
+print(quote.replace("be", "before"))

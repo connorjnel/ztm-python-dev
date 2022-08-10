@@ -99,3 +99,20 @@ ex `print(string[0:10:2])`
 Tip - If no argument provided uses default index values, so `[::1]` will execute and output whole string from start to end stepping by 1
 Tip - Can use negative value for step which will reverse string output, reverses order
 ex `print(string[::-1])`
+
+## Immutabiity
+
+Strings are immutable, cannot be changed. Generally primitive data types are mutable ie numbers, float, strings, tuples, frozen sets
+Strings can be reassigned in full but not in part using index reassignment
+
+## Built in functions + Methods
+
+Methods that can be used have . before and then parentheses ()
+
+`.len()` - Displays length of string or object, useful for strings and lists especially
+`.upper()` - Convert to uppercase
+`.lower()` - Convert to lowercase
+`.capitalize()` - Capitalizes string
+`.index()` - Find index location of argument and returns it
+`.counts()` - Counts occurences of argument
+`.replace("haha","lol")` - Changes occurence in string with second argument
