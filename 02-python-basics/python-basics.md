@@ -127,3 +127,34 @@ not keyword for opposite value
 ## Developer Fundementals
 
 Comment your code, above every line, use good comments that add value
+
+## Lists
+
+Basically arrays, enclosed with square brackets, data structure in python,
+calling specific item same as as js - `list[0]`
+reassigning is the same as js - `list[0] = "test"`
+Tip - Slice method [0:0:0] also works with lists
+Tip - List items can be changed, its mutable
+Tip - Slicing is a non destructive method, creates new list
+Tip - Lists can pass by reference when doing list1 = list2, changes to list1 will reflect in list2
+Tip - Copy list without ref `list2 = list1[:]`
+
+## Matrix - Multi dimensional list
+
+Basically a nested array
+Tip - Accessing nested value `matrix[0][1]`
+
+## List methods
+
+`len(list)` - Length of list
+append() - Adds an element at the end of the list
+clear() - Removes all the elements from the list
+copy() - Returns a copy of the list
+count() - Returns the number of elements with the specified value
+extend() - Add the elements of a list (or any iterable), to the end of the current list
+index() - Returns the index of the first element with the specified value
+insert() - Adds an element at the specified position
+pop() - Removes the element at the specified position
+remove() - Removes the first item with the specified value
+reverse() - Reverses the order of the list
+sort() - Sorts the list
