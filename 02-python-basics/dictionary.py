@@ -16,8 +16,13 @@ print(user.get("age"))
 
 user2 = dict(name="John")
 
-print(user2)
+print(user)
 
 print("age" in user.keys())
 
-print(user.items())
+# print(user.clear())
+
+user3 = user.copy()
+print(user3)
+user3["greet"] = "Goodbye"
+print(user3)

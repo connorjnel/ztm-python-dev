@@ -205,3 +205,26 @@ Tip - Check if key exists in dictionary, `"key" in dictionary_name`, returns boo
 `dict_name.keys()` - Check if key exists, return bool
 `dict_name.values()` - Check if value exists, return bool
 `dict_name.items()` - Outputs whole dictionary with keys and values, outputs as a tuple
+`dict_name.clear()` - Clears key value pairs from dictionary, empty dictionary remains
+`dict_name.copy()` - Clears key value pairs from dictionary, empty dictionary remains, does not pass by ref
+`dict_name.pop("key")` - Removes key pair, returns the value removed so can assign to var if needed
+`dict_name.popitem()` - Removes last key pair as dictionaries are now ordered
+`dict_name.update({"key": value})` - Updates a keys value, or creates a new key value pair if it didnt exist before
+
+## Tuple
+
+Basically immutable list, declared with parentheses ie `tuple = (1,2,3,4)`
+Tupple values cannot be modified, basically a const list, is ordered, can have duplicates
+Can call specific values, cannot mutate at all with methods ie sort
+More predictable list method as it wont be mutated by accident, also slightly faster than a list, good for data that wont change
+Can use tuple as a key in dictionary, can use slice on a tuple but outputs as a tuple still
+
+## Tuple Methods
+
+`my_tuple.count(4)` - Count occurences in tuple and outputs number of occurences
+`my_tuple.index(4)` - Finds first occurence of argument and outputs index position of said argument
+`len(my_tuple)` - Outputs length of tuple
+
+## Set
+
+Unordered collection of unique items
