@@ -161,6 +161,9 @@ Some methods mutate original list, some dont
 `reverse()` - Reverses the order of the list
 `sort()` - Sorts the list
 `in` - Logical check ex `"a" in "haha"` - returns boolean so True
+
+## Other list methods
+
 `range` - Create range of numbers, accepts start,stop,step
 `join()` - Joins string list items with second list item in between list items
 TIP - For join can use following syntax for adding empty string or character quickly
@@ -170,3 +173,11 @@ ex - `sentence = " ".join(["hi", "my", "name", "is", "JOJO"])`
 
 ex `a, b, c = [1, 2, 3]` = Assign multiple values quickly
 ex `a, b, c, *other = [1, 2, 3, 4, 5, 6, 7, 8, 9]` = Assign first three to variables, rest to list called other
+
+## None
+
+Special data type, represents absence of value
+
+## Dictionary - Object, Hash table, map
+
+Store data in key value pairs, is ordered, passes by reference, written with curly brackets
