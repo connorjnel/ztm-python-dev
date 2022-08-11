@@ -193,3 +193,15 @@ Dictionary holds more information, better for enumeration and large amounts of d
 ## Dictionary Keys
 
 Keys dont have to be strings, can use string, bool, number, float
+Best practice is string for keys though as they need to be descriptive
+Keys cannot be duplicated, need to be unique
+
+## Dictionary Methods
+
+`.get("key")` = Checks for key without producing error, output value if found, None if not found
+Tip - Can add a default value ex. `.get("key", "default_value")`, does not mutate original
+`user = dict(key="value")` = Fast way to create a dictionary, using standard declation more common
+Tip - Check if key exists in dictionary, `"key" in dictionary_name`, returns bool value
+`dict_name.keys()` - Check if key exists, return bool
+`dict_name.values()` - Check if value exists, return bool
+`dict_name.items()` - Outputs whole dictionary with keys and values, outputs as a tuple

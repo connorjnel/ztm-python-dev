@@ -1,9 +1,23 @@
 '''Dictionary'''
 
-dictionary = {
-    "a": [1, 2, 3],
-    "b": "Hello",
-    "c": False
+user = {
+    "basket": [1, 2, 3],
+    "greet": "Hello",
 }
 
-print(dictionary["b"])
+print(user.get("basket"))
+
+user["basket"] = ["eggs", "milk", "bread"]
+
+print(user.get("age", 50))
+
+print(user.get("age"))
+
+
+user2 = dict(name="John")
+
+print(user2)
+
+print("age" in user.keys())
+
+print(user.items())
