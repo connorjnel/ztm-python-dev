@@ -180,4 +180,16 @@ Special data type, represents absence of value
 
 ## Dictionary - Object, Hash table, map
 
-Store data in key value pairs, is ordered, passes by reference, written with curly brackets
+Store data in key value pairs, is ordered, passes by reference, written with curly brackets, changeable, no duplicates
+Called same way as list items, ex `dictionary["key"]`
+Tip - Can have multiple data types, lists, bool, number etc
+
+## Data structures
+
+Need to understand different data structures, need to know pros and cons of each so know when to use each one
+List is ordered, can use position, good for iterable information
+Dictionary holds more information, better for enumeration and large amounts of data
+
+## Dictionary Keys
+
+Keys dont have to be strings, can use string, bool, number, float
