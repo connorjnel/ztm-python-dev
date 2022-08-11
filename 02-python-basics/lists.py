@@ -18,3 +18,9 @@ matrix = [
 
 print(len(amazon_cart))
 print(len(matrix))
+
+amazon_cart.insert(4, 100)
+
+print(amazon_cart)
+
+print(amazon_cart.index("gadgets"))
