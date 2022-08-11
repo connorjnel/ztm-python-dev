@@ -123,3 +123,7 @@ These dont change original string, they dont mutate it
 
 Boolean value have to be capitalized, bool() also exists like string
 not keyword for opposite value
+
+## Developer Fundementals
+
+Comment your code, above every line, use good comments that add value
