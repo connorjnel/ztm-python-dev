@@ -1,4 +1,4 @@
-# Inputs for username and password
+''' Inputs for username and password'''
 user_name = input("What is your Username?\n")
 password = input("What is your Password?\n")
 
