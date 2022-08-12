@@ -20,3 +20,7 @@ Falsy - Values are are nothing ie None , empty string, empty list, dict will be 
 
 Shorthand conditional logic
 ex. `condition_if_true if condition else condition_if_else`
+
+## Short circuiting
+
+When doing logical conditional check using `or` then its faster than `and` because expression can evaluate after first condition and skip checking second condition. For `and` if first is false then also short circuits and doesnt check second.
