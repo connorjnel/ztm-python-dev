@@ -41,3 +41,14 @@ When doing logical conditional check using `or` then its faster than `and` becau
 
 `==` - Equal, check for equality of value
 `is` - Checks if location in memory is the same
+
+## Loops
+
+`for item in [1, 2, 3, 4, 5]:print(item + 5)`
+Loop very similar to JS, very simple format
+
+## Iterable Items
+
+Object that can be iterated through, string, list, dictionary, set, tuple
+
+## Non Iterable Items
