@@ -50,5 +50,11 @@ Loop very similar to JS, very simple format
 ## Iterable Items
 
 Object that can be iterated through, string, list, dictionary, set, tuple
+Int and float are not iterable
 
-## Non Iterable Items
+## Iterating through dict
+
+`for item in users.items():` - Iterate and return the full dict with key and values as a tuple
+`for item in users.values():` - Iterate and return the dict values
+`for item in users.keys():` - Iterate and return the dict keys
+`for key, value in users.items(): print(key, value)` - Uncouple from tuple and print keys and values
