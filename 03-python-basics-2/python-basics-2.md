@@ -24,3 +24,20 @@ ex. `condition_if_true if condition else condition_if_else`
 ## Short circuiting
 
 When doing logical conditional check using `or` then its faster than `and` because expression can evaluate after first condition and skip checking second condition. For `and` if first is false then also short circuits and doesnt check second.
+
+## Logical Operators
+
+`==` - Equal, check for equality of value
+`!=` - Not equal
+`>` - Greater than
+`<` - Less than
+`>=` - Greater than or equal to
+`<=` - Less than or equal to
+`and` - Returns True if both statements are true
+`or` - Returns True if one of the statements is true
+`not` - Reverse the result, returns False if the result is true
+
+## is vs ==
+
+`==` - Equal, check for equality of value
+`is` - Checks if location in memory is the same
