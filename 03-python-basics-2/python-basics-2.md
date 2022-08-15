@@ -58,3 +58,7 @@ Int and float are not iterable
 `for item in users.values():` - Iterate and return the dict values
 `for item in users.keys():` - Iterate and return the dict keys
 `for key, value in users.items(): print(key, value)` - Uncouple from tuple and print keys and values
+
+## Ranges
+
+The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
