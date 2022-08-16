@@ -85,3 +85,20 @@ Tip - While loops with True can exit indefinitely until false, just remember bre
 Code is clean, follows best standards, easily readable
 Use comments to illustrate what expressions do or why it is written that way
 Predictability, keep it simple and makes sense, easily readable
+DRY, do not repeat yourself
+
+## Functions
+
+`def say_hello():` - How to define functions
+`say_hello()` - Call function
+
+## Argument vs parameters
+
+A parameter is the variable listed inside the parentheses in the function definition.
+An argument is the value that is sent to the function when it is called.
+
+## Default parameters
+
+Normal parameters are positional, they output in the order they were defined in function
+Keyword argument - When calling function can use param_value="string", basicaly forcing position change when calling the function
+Default argument - Define in function parameter with param="default", only used when no argument provided
