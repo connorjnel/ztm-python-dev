@@ -38,9 +38,32 @@
 
 # Exercise 2
 
-my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-total = 0
-for item in my_list:
-    total = total + item
-print(total)
+# total = 0
+# for item in my_list:
+#     total = total + item
+# print(total)
+
+# Range
+
+# for number in range(10, 0, -1):
+#     print(number)
+
+# for _ in range(2):
+#     print(list(range(10)))
+
+# Enumerate
+
+# for i, char in enumerate(list(range(100))):
+#     if char == 50:
+#         print(f"index of 50 is: {i}")
+
+# While loop
+
+i = 0
+while i < 50:
+    print(i)
+    i += 1
+else:
+    print("jobs done")

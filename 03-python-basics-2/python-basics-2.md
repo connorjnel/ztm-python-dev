@@ -62,3 +62,16 @@ Int and float are not iterable
 ## Ranges
 
 The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
+Tip - When not caring about var can use underscore as var placeholder `_`
+Tip - To go in reverse need to use negative for step value ie `-1`
+
+## Enumerate
+
+The enumerate() function takes a collection (e.g. a tuple) and returns it as an enumerate object.
+Useful if you need a index counter for a list, tuple etc
+
+## While Loop
+
+With the while loop we can execute a set of statements as long as a condition is true.
+Tip - With the `break` statement we can stop the loop even if the while condition is true:
+Tip - Can add final action with else statement, else block only executes once while is false, break usage in while will negate else
