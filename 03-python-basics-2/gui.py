@@ -9,10 +9,10 @@ picture = [
     [0, 0, 0, 1, 0, 0, 0]
 ]
 
-for image in picture:
-    for pixel in image:
-        if (pixel == 1):
+for line in picture:  # Iterate through matrix array
+    for pixel in line:  # Iterate through items in each array
+        if pixel:
             print("*", end="")
         else:
             print(" ", end="")
-    print("")
+    print("")  # Add new line after each line

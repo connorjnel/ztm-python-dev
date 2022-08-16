@@ -79,3 +79,9 @@ Tip - While loops with True can exit indefinitely until false, just remember bre
 `break` - With the `break` statement we can stop the loop even if the while condition is true:
 `continue` - Stop current iteration, and continue with next iteration
 `pass` - Not very useful, basically can use as placeholder for incomplete loop
+
+## Developer Fundamentas - Good code
+
+Code is clean, follows best standards, easily readable
+Use comments to illustrate what expressions do or why it is written that way
+Predictability, keep it simple and makes sense, easily readable
