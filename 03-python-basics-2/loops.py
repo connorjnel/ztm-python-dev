@@ -61,9 +61,19 @@
 
 # While loop
 
-i = 0
-while i < 50:
-    print(i)
-    i += 1
-else:
-    print("jobs done")
+# i = 0
+# while i < 50:
+#     print(i)
+#     i += 1
+# else:
+#     print("jobs done")
+
+# i = 0
+# while i < len([1, 2, 3]):
+#     print(i)
+#     i += 1
+
+# while True:
+#     response = input("Whats up? \n")
+#     if (response == "bye"):
+#         break

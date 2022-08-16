@@ -73,5 +73,9 @@ Useful if you need a index counter for a list, tuple etc
 ## While Loop
 
 With the while loop we can execute a set of statements as long as a condition is true.
-Tip - With the `break` statement we can stop the loop even if the while condition is true:
 Tip - Can add final action with else statement, else block only executes once while is false, break usage in while will negate else
+Tip - While loop for more complex loops with condition or you dont know how long loops needs to run
+Tip - While loops with True can exit indefinitely until false, just remember break
+`break` - With the `break` statement we can stop the loop even if the while condition is true:
+`continue` - Stop current iteration, and continue with next iteration
+`pass` - Not very useful, basically can use as placeholder for incomplete loop
