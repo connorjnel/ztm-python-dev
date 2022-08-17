@@ -119,3 +119,13 @@ Python methods used dot notation ie. `"haha.capitalize()`
 
 Comment using `'''Info'''`, do this inside function and then emmett can pick up the info we wrote about function, super useful
 Can also be called with `help(function)`, not just in code editor
+
+## Clean Code
+
+Keep code simple, get rid of redundant code, dont use conditions if you can use straight return
+
+## Args and Kwargs
+
+`*args` - Allows multiple arguments to be added even though one was defined in function
+`**kwargs` - Allows usage of multiple keyword args even though only one was defined
+Order for arguments in envocation - `Rule: params, *args, default parameters, **kwargs`

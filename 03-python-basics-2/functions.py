@@ -31,9 +31,26 @@
 # print(total)
 # print(sum(4, total))
 
-def test(a):
-    '''Info: This is a completely useless function, testing docstrings'''
-    print(a)
+# def test(a):
+#     '''Info: This is a completely useless function, testing docstrings'''
+#     print(a)
 
 
-help(test)
+# help(test)
+
+
+# def is_even(num):
+#     return num % 2 == 0
+
+
+# print(is_even(50))
+
+def super_func(*args, **kwargs):
+    total = 0
+    print(args)
+    for items in kwargs.values():
+        total += items
+    return sum(args) + total
+
+
+print(super_func(1, 2, 3, 4, 5, num1=5, num2=10))
