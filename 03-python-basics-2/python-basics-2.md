@@ -108,3 +108,14 @@ Default argument - Define in function parameter with param="default", only used 
 The `return` keyword is to exit a function and return a value.
 Functions need to return something, if they done they just output `None`
 Functions should do one thing really well, functions should return something
+`return` keyword exits the function, ie if statement following return wont get run
+
+## Methods vs Functions
+
+Python have built in functions, called with param ie `list()`
+Python methods used dot notation ie. `"haha.capitalize()`
+
+## Docstrings
+
+Comment using `'''Info'''`, do this inside function and then emmett can pick up the info we wrote about function, super useful
+Can also be called with `help(function)`, not just in code editor
