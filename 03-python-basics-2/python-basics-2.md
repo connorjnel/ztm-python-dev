@@ -102,3 +102,9 @@ An argument is the value that is sent to the function when it is called.
 Normal parameters are positional, they output in the order they were defined in function
 Keyword argument - When calling function can use param_value="string", basicaly forcing position change when calling the function
 Default argument - Define in function parameter with param="default", only used when no argument provided
+
+## Return
+
+The `return` keyword is to exit a function and return a value.
+Functions need to return something, if they done they just output `None`
+Functions should do one thing really well, functions should return something
