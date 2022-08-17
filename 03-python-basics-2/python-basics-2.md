@@ -129,3 +129,8 @@ Keep code simple, get rid of redundant code, dont use conditions if you can use 
 `*args` - Allows multiple arguments to be added even though one was defined in function
 `**kwargs` - Allows usage of multiple keyword args even though only one was defined
 Order for arguments in envocation - `Rule: params, *args, default parameters, **kwargs`
+
+## Walrus operator
+
+`:=` - Allows you to assign values to variables as part of a larger expression, use parentheses.
+ex `if ((n := len(a)) > 10):` - Now we can use `n` in further statements without having to redo the len(a)
