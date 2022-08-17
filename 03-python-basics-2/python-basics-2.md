@@ -134,3 +134,19 @@ Order for arguments in envocation - `Rule: params, *args, default parameters, **
 
 `:=` - Allows you to assign values to variables as part of a larger expression, use parentheses.
 ex `if ((n := len(a)) > 10):` - Now we can use `n` in further statements without having to redo the len(a)
+
+## Scope
+
+A variable is only available from inside the region it is created. This is called scope.
+Functional Scope - Variables declared within functions are only usable inside that function,
+Global Scope - Variables declared outside of function has global scope, is globally accessible
+Python interpreter checks local scope first for variable, then checks lexical parent scope, then global scope, then built in python scope
+
+## Global Keyword
+
+`global` - Import variable from global scope into local scope
+
+## Nonlocal Keyword
+
+`nonlocal` - The `nonlocal` keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function.
+Tip - Use the keyword `nonlocal` to declare that the variable is not local. Fetches variable from parent scope if it exists
