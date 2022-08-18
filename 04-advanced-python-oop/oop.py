@@ -1,14 +1,18 @@
 class PlayerCharacter:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+    # Class object attribute
+    membership = True
 
-    def run(self):
-        print("run")
+    def __init__(self, name="Anon", age=0):
+        if (age > 18):
+            self.name = name  # Attributes
+            self.age = age  # Attributes
+
+    def shout(self):
+        print(f"My name is {self.name}")
 
 
 player1 = PlayerCharacter("Jovan", 24)
 player2 = PlayerCharacter("Tom", 50)
+player3 = PlayerCharacter("Nick", 10)
 
-print(player1.name, player1.age)
-print(player2.name, player2.age)
+print(player3.shout())
