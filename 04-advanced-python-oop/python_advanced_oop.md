@@ -98,3 +98,8 @@ Special magic methods, not meant to be modified usually but can be redeclared in
 Object can have multiple inheritances.
 Need to init and import parameters from parent classes
 ex .`class Hybrid(Wizard, Archer):def __init__(self, name, power, num_arrows):Archer.__init__(self, name, num_arrows)Wizard.__init__(self, name, power)`
+
+## Method Resolution Order - MRO
+
+Method Resolution Order (MRO) is the order in which Python looks for a method in a hierarchy of classes. Especially it plays vital role in the context of multiple inheritance as single method may be found in multiple super classes.
+`class.mro()` - Quick way to check resolution order,
