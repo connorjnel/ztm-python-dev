@@ -46,3 +46,26 @@ Static methods are methods that are related to a class in some way, but don't ne
 
 Test my understanding, if you dont know how it works try to code it, read docs about it, do some tests
 `Self` refers to itself, refers to current instance of the class, so if i run it on obj1 it refers to obj1
+
+## 4 Pillars of OOP
+
+### Encapsulation
+
+To enclose something in or as if in a capsule. Using classes that has data and actions in a single blueprint, dont have to repeat yourself
+
+### Abstraction
+
+Dont need to know the smallest detail of how something works, methods and attributes exist that take it out of our hands, good to be curious and look into but not the most efficient use of time
+
+#### Private vs public variables
+
+`_var` - Python convention stating that its a private function/variable, dont edit it. Just tells devs not to touch it
+`__var__` - Dunder methods, do not edit these
+
+### Inheritance
+
+Allows new objects to inherit properties of existing objects, can inherit classes. Obj can have multiple classes. To inherit from parent class just pass in parent class name into arg of child class
+
+### Polymorphism
+
+The condition of occurrence in several different forms.
