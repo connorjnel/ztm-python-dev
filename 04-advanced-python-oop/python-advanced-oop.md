@@ -12,3 +12,6 @@ Naming convention is CamelCase
 ex. `class BigObject: pass`
 `Object` different instances created from class, or instantiated from class
 ex. `obj1 = BigObject()`
+`__init__()` - Use the `__init__()` function to assign values to object properties, or other operations that are necessary to do when the object is being created
+`self` - The `self` parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
+Tip - Each object is saved in a different memory location

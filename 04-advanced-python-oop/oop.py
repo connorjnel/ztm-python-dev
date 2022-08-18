@@ -1,17 +1,14 @@
-class BigObject:
-    pass
+class PlayerCharacter:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def run(self):
+        print("run")
 
 
-obj1 = BigObject()
+player1 = PlayerCharacter("Jovan", 24)
+player2 = PlayerCharacter("Tom", 50)
 
-
-print(type(None))
-print(type(True))
-print(type(5))
-print(type(5.5))
-print(type("Hi"))
-print(type([]))
-print(type(()))
-print(type({}))
-print(type(BigObject))
-print(type(obj1))
+print(player1.name, player1.age)
+print(player2.name, player2.age)
