@@ -66,7 +66,7 @@ Tip - Python has a super parent object class, contains dunder methods
 
 ### Polymorphism
 
---
+Object classes can share the same method name, those methods act differently depending on which object calls them
 
 ### Private vs public variables
 

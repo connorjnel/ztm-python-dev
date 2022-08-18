@@ -30,6 +30,9 @@ class User():
     def sign_in(self):
         print("Logged in")
 
+    def attack(self):
+        print("Flail arms ineffectively")
+
 
 class Wizard(User):
     def __init__(self, name, power):
@@ -37,6 +40,7 @@ class Wizard(User):
         self.power = power
 
     def attack(self):
+        User.attack(self)
         print(f"Attacking with power of {self.power}")
 
 
@@ -46,13 +50,20 @@ class Archer(User):
         self.num_arrows = num_arrows
 
     def attack(self):
+        User.attack(self)
         print(f"Attacking with arrow, arrows left: {self.num_arrows}")
 
 
 wizard1 = Wizard("Merlin", 50)
-archer1 = Archer("Robin Hood", 100)
+archer1 = Archer("Robin Hood", 30)
 
-# wizard1.attack()
-# archer1.attack()
 
-print(isinstance(wizard1, object))
+def player_attack(char):
+    char.attack()
+
+
+# player_attack(wizard1)
+# player_attack(archer1)
+
+for char in [wizard1, archer1]:
+    char.attack()
