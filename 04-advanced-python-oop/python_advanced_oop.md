@@ -87,6 +87,14 @@ Ability the type of a object at runtime
 
 ## self
 
-The self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
+The `self` parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
 
 ## Dunder Methods
+
+Special magic methods, not meant to be modified usually but can be redeclared in classes to change the behavior when that specific magic method is called on objects created using that class
+
+## Multiple Inheritances
+
+Object can have multiple inheritances.
+Need to init and import parameters from parent classes
+ex .`class Hybrid(Wizard, Archer):def __init__(self, name, power, num_arrows):Archer.__init__(self, name, num_arrows)Wizard.__init__(self, name, power)`

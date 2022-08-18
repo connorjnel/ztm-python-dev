@@ -27,17 +27,17 @@
 # print(player1.shout())
 
 # class User():
-#     def __init__(self, email):
-#         self.email = email
+#     # def __init__(self, email):
+#     #     self.email = email
 
 #     def sign_in(self):
 #         print("Logged in")
 
 
 # class Wizard(User):
-#     def __init__(self, name, power, email):
+#     def __init__(self, name, power):
 #         # User.__init__(self, email)
-#         super().__init__(email)
+#         # super().__init__(email)
 #         self.name = name
 #         self.power = power
 
@@ -54,7 +54,7 @@
 #         print(f"Attacking with arrow, arrows left: {self.num_arrows}")
 
 
-# wizard1 = Wizard("Merlin", 50, "merlin@gmail.com")
+# wizard1 = Wizard("Merlin", 50)
 # archer1 = Archer("Robin Hood", 30)
 
 
@@ -62,30 +62,76 @@
 #     char.attack()
 
 
-# # player_attack(wizard1)
-# # player_attack(archer1)
+# player_attack(wizard1)
+# player_attack(archer1)
 
-# # for char in [wizard1, archer1]:
-# #     char.attack()
+# for char in [wizard1, archer1]:
+#     char.attack()
 
 # print(wizard1.email)
 # print(dir(wizard1))
 
 
-class Toy():
-    def __init__(self, color, age):
-        self.color = color
-        self.age = age
+# class Toy():
+#     def __init__(self, color, age):
+#         self.color = color
+#         self.age = age
 
-    def __str__(self):
-        return f"{self.color}"
+#     def __str__(self):
+#         return f"{self.color}"
 
-    def __len__(self):
-        return "You done messed up son"
+#     def __len__(self):
+#         return "You done messed up son"
 
 
-action_figure = Toy("red", 0)
+# action_figure = Toy("red", 0)
 
-print(action_figure.__str__())
-print(action_figure.__len__())
-print(len("haha"))
+# print(action_figure.__str__())
+# print(action_figure.__len__())
+# print(len("haha"))
+
+
+class User():
+    # def __init__(self, email):
+    #     self.email = email
+
+    def sign_in(self):
+        print("Logged in")
+
+
+class Wizard(User):
+    def __init__(self, name, power):
+        # User.__init__(self, email)
+        # super().__init__(email)
+        self.name = name
+        self.power = power
+
+    def attack(self):
+        print(f"Attacking with power of {self.power}")
+
+
+class Archer(User):
+    def __init__(self, name, num_arrows):
+        self.name = name
+        self.num_arrows = num_arrows
+
+    def attack(self):
+        print(f"Attacking with arrow, arrows left: {self.num_arrows}")
+
+    def run(self):
+        print("Ran really fast")
+
+    def check_arrows(self):
+        print(f"{self.num_arrows}")
+
+
+class Hybrid(Wizard, Archer):
+    def __init__(self, name, power, num_arrows):
+        Archer.__init__(self, name, num_arrows)
+        Wizard.__init__(self, name, power)
+
+
+hb1 = Hybrid("Borgy", 50, 99)
+# print(hb1.run())
+# print(hb1.check_arrows())
+print(hb1.attack())
