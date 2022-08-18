@@ -30,3 +30,19 @@ Methods - Class methods need `self` as arg and as parent for var callbacks, lint
 ## `__init__`
 
 Constructor can have conditional checks built in, can also have default parameters
+
+## Class methods and static methods
+
+`@classmethod`
+`def example_function(cls):`
+Class methods don't need self as an argument, but they do need a parameter called cls. This stands for class, and like self, gets automatically passed in by Python.
+Tip. Can be used without instantiating a class.
+
+`@staticmethod`
+`def example_function():`
+Static methods are methods that are related to a class in some way, but don't need to access any class-specific data. You don't have to use self, and you don't even need to instantiate an instance, you can simply call your method:
+
+## Dev fundamental 5 - Test assumptions
+
+Test my understanding, if you dont know how it works try to code it, read docs about it, do some tests
+`Self` refers to itself, refers to current instance of the class, so if i run it on obj1 it refers to obj1
