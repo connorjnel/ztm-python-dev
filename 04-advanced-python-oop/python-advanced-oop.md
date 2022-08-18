@@ -64,11 +64,29 @@ Need to have parent class and child classes, sometimes called sub classes
 `isinstance(instance,class)` - Check if instance is a instance of a specified class.
 Tip - Python has a super parent object class, contains dunder methods
 
-### Polymorphism
+## Polymorphism
 
 Object classes can share the same method name, those methods act differently depending on which object calls them
 
-### Private vs public variables
+## Private vs public variables
 
 `_var` - Python convention stating that its a private function/variable, dont edit it. Just tells devs not to touch it
 `__var__` - Dunder methods, do not edit these
+
+## Super
+
+The super() function is used to give access to methods and properties of a parent or sibling class.
+ex. `super().__init__(arg)` - pulls from parent, dont need to add self
+ex. `Parent.__init__(self, arg)` - fallback older method
+Tip. Remember to add arg in child class that is being pulled from super in child declaration
+
+## Object Introspection
+
+Ability the type of a object at runtime
+`dir(obj)` - The dir() function returns all properties and methods of the specified object, without the values.
+
+## self
+
+The self parameter is a reference to the current instance of the class, and is used to access variables that belong to the class.
+
+## Dunder Methods

@@ -26,44 +26,66 @@
 
 # print(player1.shout())
 
-class User():
-    def sign_in(self):
-        print("Logged in")
+# class User():
+#     def __init__(self, email):
+#         self.email = email
 
-    def attack(self):
-        print("Flail arms ineffectively")
-
-
-class Wizard(User):
-    def __init__(self, name, power):
-        self.name = name
-        self.power = power
-
-    def attack(self):
-        User.attack(self)
-        print(f"Attacking with power of {self.power}")
+#     def sign_in(self):
+#         print("Logged in")
 
 
-class Archer(User):
-    def __init__(self, name, num_arrows):
-        self.name = name
-        self.num_arrows = num_arrows
+# class Wizard(User):
+#     def __init__(self, name, power, email):
+#         # User.__init__(self, email)
+#         super().__init__(email)
+#         self.name = name
+#         self.power = power
 
-    def attack(self):
-        User.attack(self)
-        print(f"Attacking with arrow, arrows left: {self.num_arrows}")
-
-
-wizard1 = Wizard("Merlin", 50)
-archer1 = Archer("Robin Hood", 30)
+#     def attack(self):
+#         print(f"Attacking with power of {self.power}")
 
 
-def player_attack(char):
-    char.attack()
+# class Archer(User):
+#     def __init__(self, name, num_arrows):
+#         self.name = name
+#         self.num_arrows = num_arrows
+
+#     def attack(self):
+#         print(f"Attacking with arrow, arrows left: {self.num_arrows}")
 
 
-# player_attack(wizard1)
-# player_attack(archer1)
+# wizard1 = Wizard("Merlin", 50, "merlin@gmail.com")
+# archer1 = Archer("Robin Hood", 30)
 
-for char in [wizard1, archer1]:
-    char.attack()
+
+# def player_attack(char):
+#     char.attack()
+
+
+# # player_attack(wizard1)
+# # player_attack(archer1)
+
+# # for char in [wizard1, archer1]:
+# #     char.attack()
+
+# print(wizard1.email)
+# print(dir(wizard1))
+
+
+class Toy():
+    def __init__(self, color, age):
+        self.color = color
+        self.age = age
+
+    def __str__(self):
+        return f"{self.color}"
+
+    def __len__(self):
+        return "You done messed up son"
+
+
+action_figure = Toy("red", 0)
+
+print(action_figure.__str__())
+print(action_figure.__len__())
+print(len("haha"))
