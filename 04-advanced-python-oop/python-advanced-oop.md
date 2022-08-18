@@ -51,21 +51,24 @@ Test my understanding, if you dont know how it works try to code it, read docs a
 
 ### Encapsulation
 
-To enclose something in or as if in a capsule. Using classes that has data and actions in a single blueprint, dont have to repeat yourself
+Using classes that has data and actions in a single blueprint, dont have to repeat yourself
 
 ### Abstraction
 
 Dont need to know the smallest detail of how something works, methods and attributes exist that take it out of our hands, good to be curious and look into but not the most efficient use of time
 
-#### Private vs public variables
-
-`_var` - Python convention stating that its a private function/variable, dont edit it. Just tells devs not to touch it
-`__var__` - Dunder methods, do not edit these
-
 ### Inheritance
 
-Allows new objects to inherit properties of existing objects, can inherit classes. Obj can have multiple classes. To inherit from parent class just pass in parent class name into arg of child class
+Allows new objects to inherit properties of existing objects, can inherit classes. Obj can have multiple classes. To inherit from parent class just pass in parent class name into arg of child class.
+Need to have parent class and child classes, sometimes called sub classes
+`isinstance(instance,class)` - Check if instance is a instance of a specified class.
+Tip - Python has a super parent object class, contains dunder methods
 
 ### Polymorphism
 
-The condition of occurrence in several different forms.
+--
+
+### Private vs public variables
+
+`_var` - Python convention stating that its a private function/variable, dont edit it. Just tells devs not to touch it
+`__var__` - Dunder methods, do not edit these

@@ -32,12 +32,27 @@ class User():
 
 
 class Wizard(User):
-    pass
+    def __init__(self, name, power):
+        self.name = name
+        self.power = power
+
+    def attack(self):
+        print(f"Attacking with power of {self.power}")
 
 
 class Archer(User):
-    pass
+    def __init__(self, name, num_arrows):
+        self.name = name
+        self.num_arrows = num_arrows
+
+    def attack(self):
+        print(f"Attacking with arrow, arrows left: {self.num_arrows}")
 
 
-wizard1 = Wizard()
-print(wizard1.sign_in())
+wizard1 = Wizard("Merlin", 50)
+archer1 = Archer("Robin Hood", 100)
+
+# wizard1.attack()
+# archer1.attack()
+
+print(isinstance(wizard1, object))
