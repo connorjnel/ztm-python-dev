@@ -51,6 +51,8 @@ list_2 = [10, 20, 30, 40, 50]
 
 zipped_list = list(zip(list_1, list_2))
 
+print(zipped_list)
+
 # Reduce function
 
 list_3 = [1, 2, 3, 4, 5]
@@ -60,6 +62,6 @@ def accumulator(acc, item):
     return acc + item
 
 
-reduced_list = reduce(accumulator, list_3, 0)
+reduced_list = reduce(accumulator, list_3, )
 
 print(reduced_list)
