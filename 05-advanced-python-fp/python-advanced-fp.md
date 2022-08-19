@@ -37,3 +37,11 @@ Tip. Filter does not mutate original data source
 `zip()` = Function returns a zip object, which is an iterator of tuples where the first item in each passed iterator is paired together, and then the second item in each passed iterator are paired together etc.
 ex. `zipped_list = list(zip(list_1, list_2))`
 Tip. Zip does not mutate original data source
+
+## Reduce function
+
+`reduce()` - The reduce(fun,seq) function is used to apply a particular function passed in its argument to all of the list elements mentioned in the sequence passed along.This function is defined in “functools” module.
+Tip. Reduce needs to be imported to be used - `from functools import reduce`
+Tip. Accumulator default to 0 if not defined in accumulator function
+ex. Acc function - `def accumulator(acc, item):return acc + item` - Acc defaults to zero if not defined in function
+ex. reduce function - `reduced_list = reduce(accumulator, list_3, 0)` - 0 does not need to be defined here either

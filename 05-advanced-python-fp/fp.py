@@ -1,4 +1,9 @@
+# import module method reduce
+from functools import reduce
+
 # Pure function, no side effects generated
+
+
 def multiply_by2(li):
     new_list = []
     for item in li:
@@ -46,4 +51,15 @@ list_2 = [10, 20, 30, 40, 50]
 
 zipped_list = list(zip(list_1, list_2))
 
-print(zipped_list)
+# Reduce function
+
+list_3 = [1, 2, 3, 4, 5]
+
+
+def accumulator(acc, item):
+    return acc + item
+
+
+reduced_list = reduce(accumulator, list_3, 0)
+
+print(reduced_list)
