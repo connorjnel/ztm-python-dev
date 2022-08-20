@@ -54,3 +54,9 @@ A lambda function can take any number of arguments, but can only have one expres
 ex. `mapped_list_lambda = list(map(lambda item: item*2, new_list))`
 ex. `filtered_list_lambda = list(filter(lambda item: item % 2 != 0, new_list))`
 ex. `reduced_list_lambda = reduce(lambda acc, item: acc + item, new_list)`
+Tip. Can use lambda inside of other methods, for example can use lambda as key in sorted
+
+## Sort and sorted
+
+`sort` - Mutates original, only usable on lists, returns nothing, list method
+`sorted` - Does not mutate, usable on iterables, returns result

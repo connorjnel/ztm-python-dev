@@ -73,7 +73,7 @@ words = ["hello", "bye"]
 mapped_list_lambda = list(map(lambda item: item*2, new_list))
 mapped_list_lambda_upper = list(map(lambda item: item.upper(), words))
 
-reduced_list_lambda = reduce(lambda acc, item: acc + item, new_list)
+filtered_list_lambda = list(filter(lambda item: item % 2 != 0, new_list))
 
 
-print(reduced_list_lambda)
+print(filtered_list_lambda)
