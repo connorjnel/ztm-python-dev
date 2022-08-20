@@ -45,3 +45,8 @@ Tip. Reduce needs to be imported to be used - `from functools import reduce`
 Tip. Accumulator default to 0 if not defined in accumulator function
 ex. Acc function - `def accumulator(acc, item):return acc + item` - Acc defaults to zero if not defined in function
 ex. reduce function - `reduced_list = reduce(accumulator, list_3, 0)` - 0 does not need to be defined here either
+
+## Lambda Expressions
+
+A lambda function is a small anonymous function.
+A lambda function can take any number of arguments, but can only have one expression.
