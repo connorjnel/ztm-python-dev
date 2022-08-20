@@ -60,3 +60,12 @@ Tip. Can use lambda inside of other methods, for example can use lambda as key i
 
 `sort` - Mutates original, only usable on lists, returns nothing, list method
 `sorted` - Does not mutate, usable on iterables, returns result
+
+## List comprehensions
+
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+ex. `my_list2 = [char for char in "hello"]`
+ex. `my_list3 = [num for num in range(0, 100)]`
+ex. `my_list4 = [num*2 for num in range(0, 100)]`
+ex. `my_list5 = [num**2 for num in range(0, 100) if num % 2 == 0]`
+Tip. Can add conditions and operators to comprehensions
