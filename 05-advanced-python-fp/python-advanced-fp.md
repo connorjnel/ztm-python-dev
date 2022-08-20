@@ -48,5 +48,9 @@ ex. reduce function - `reduced_list = reduce(accumulator, list_3, 0)` - 0 does n
 
 ## Lambda Expressions
 
-A lambda function is a small anonymous function.
+A lambda function is a small anonymous function - function doesnt have a name
 A lambda function can take any number of arguments, but can only have one expression.
+`lambda parameter: function / action (param)`
+ex. `mapped_list_lambda = list(map(lambda item: item*2, new_list))`
+ex. `filtered_list_lambda = list(filter(lambda item: item % 2 != 0, new_list))`
+ex. `reduced_list_lambda = reduce(lambda acc, item: acc + item, new_list)`

@@ -51,7 +51,7 @@ list_2 = [10, 20, 30, 40, 50]
 
 zipped_list = list(zip(list_1, list_2))
 
-print(zipped_list)
+# print(zipped_list)
 
 # Reduce function
 
@@ -64,4 +64,16 @@ def accumulator(acc, item):
 
 reduced_list = reduce(accumulator, list_3, )
 
-print(reduced_list)
+# print(reduced_list)
+
+# Lambda Expression
+
+words = ["hello", "bye"]
+
+mapped_list_lambda = list(map(lambda item: item*2, new_list))
+mapped_list_lambda_upper = list(map(lambda item: item.upper(), words))
+
+reduced_list_lambda = reduce(lambda acc, item: acc + item, new_list)
+
+
+print(reduced_list_lambda)
