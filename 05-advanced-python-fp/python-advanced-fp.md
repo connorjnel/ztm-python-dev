@@ -63,9 +63,15 @@ Tip. Can use lambda inside of other methods, for example can use lambda as key i
 
 ## List comprehensions
 
-List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing iterable.
 ex. `my_list2 = [char for char in "hello"]`
 ex. `my_list3 = [num for num in range(0, 100)]`
 ex. `my_list4 = [num*2 for num in range(0, 100)]`
 ex. `my_list5 = [num**2 for num in range(0, 100) if num % 2 == 0]`
 Tip. Can add conditions and operators to comprehensions
+
+## Set and dictionary comprehensions
+
+Set & Dict comprehension offers a shorter syntax when you want to create a new set or dict based on the values of an existing iterable.
+ex. `my_set2 = {char for char in "hello"}`
+ex. `my_dict = {key: value**2 for key, value in simple_dict.items()}`
