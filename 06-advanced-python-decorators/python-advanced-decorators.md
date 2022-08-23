@@ -7,3 +7,8 @@ Decorators are the most common use of higher-order functions in Python. It allow
 tip - `del` - Keyword in py for deleting functions, objects, lists, dict etc
 tip - var and func in py are first class, can be passed as arg,
 tip - if passed by ref source object is deleted then object can still be called by child reference
+
+## Higher order function HOC
+
+Higher order function - function that accepts another function as argument or a function that returns another function
+Tip - Map, reduce, filter are higher functions

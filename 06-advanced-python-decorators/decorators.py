@@ -1,9 +1,18 @@
-def hello():
-    print("helloooo")
+# def hello():
+#     print("helloooo")
 
 
-greet = hello
+# greet = hello
 
-print(greet())
+# print(greet())
 
-del hello
+# del hello
+
+def greet(func):
+    func()
+
+
+def greet2():
+    def func():
+        return 5
+    return func
