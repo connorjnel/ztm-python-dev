@@ -12,3 +12,7 @@ tip - if passed by ref source object is deleted then object can still be called 
 
 Higher order function - function that accepts another function as argument or a function that returns another function
 Tip - Map, reduce, filter are higher functions
+
+## Tips
+
+tip - Function that wraps another function and enhances it, add extra functionality to other functions, can enqeue actions before and after wrapped functions
