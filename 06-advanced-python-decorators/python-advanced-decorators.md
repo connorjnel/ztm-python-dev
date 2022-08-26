@@ -16,3 +16,5 @@ Tip - Map, reduce, filter are higher functions
 ## Tips
 
 tip - Function that wraps another function and enhances it, add extra functionality to other functions, can enqeue actions before and after wrapped functions
+tip - if wrapped function has a parameter then wrapper function also needs param as well as wrapped function inside wrapper,
+tip - `*args, **kwargs` - can use this pattern for wrapper and wrapped function, will accept multiple args and kwargs without having to worry about updating decorator wrapped function constantly
