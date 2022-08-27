@@ -8,7 +8,7 @@ user1 = {
 
 def authenticated(fn):
     def wrapper(*args, **kwargs):
-        if user1.get("valid") == True:
+        if user1.get("valid") is True:
             fn(*args, **kwargs)
         else:
             print("Access not authorised")
