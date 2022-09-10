@@ -7,10 +7,10 @@ When an error occurs, or exception as we call it, Python will normally stop and 
 These exceptions can be handled using the try statement:
 The `try` block lets you test a block of code for errors.
 The `except` block lets you handle the error.
-The `finally` block lets you execute code, regardless of the result of the try- and except blocks.
-The `raise` keyword is used to raise an exception, can display custom error message without having to use print
+The `finally` block lets you execute code, regardless of the result of the try- and exWcept blocks.
 ex. `try: print(x) except: print("An exception occurred")`
 
+The `raise` keyword is used to raise an exception, can display custom error message without having to use print
 The `break` keyword is used to break out a for loop, or a while loop.
 The `continue` keyword is used to end the current iteration in a for loop (or a while loop), and continues to the next iteration.
 
