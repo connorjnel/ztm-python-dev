@@ -9,4 +9,7 @@
 
 - `import` - The import keyword is used to import modules.
 
-# Packages
+## Packages
+
+- Package is a folder containing modules
+- To import use folder.file ex. shopping.shopping_cart
