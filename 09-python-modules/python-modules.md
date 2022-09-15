@@ -15,3 +15,9 @@
 - To import use folder.file ex. shopping.shopping_cart
 - To help with long paths to functions can import function only using `from`. Can import multiple with `,` divider
 - Be aware of name collissions, when importing function if it already existed will override, use alias for function colliding or change the function name
+
+## Name
+
+- `if __name__ == "__main__":` - Conditional to run code only if on main file
+- `__name__` - Outputs the simple path for file
+- `__main__` - This refers to main .py file that is being run, when you run `__name__` on it will get named `__main__`
