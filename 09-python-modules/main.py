@@ -1,5 +1,5 @@
-import utility
-import shopping.shopping_cart as shopping_cart
+from utility import multiply, divide
+from shopping.more_shopping.shopping_cart import buy
 
-print(utility.divide(4, 2))
-print(shopping_cart.buy("apple"))
+print(divide(4, 2))
+print(buy("apple"))

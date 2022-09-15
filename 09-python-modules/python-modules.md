@@ -13,3 +13,5 @@
 
 - Package is a folder containing modules
 - To import use folder.file ex. shopping.shopping_cart
+- To help with long paths to functions can import function only using `from`. Can import multiple with `,` divider
+- Be aware of name collissions, when importing function if it already existed will override, use alias for function colliding or change the function name
