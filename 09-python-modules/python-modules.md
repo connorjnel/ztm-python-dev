@@ -21,3 +21,8 @@
 - `if __name__ == "__main__":` - Conditional to run code only if on main file
 - `__name__` - Outputs the simple path for file
 - `__main__` - This refers to main .py file that is being run, when you run `__name__` on it will get named `__main__`
+
+## Built in modules
+
+- Python interpreter has a number of built-in modules. Just need to be imported for use, VSCODE auto completes
+- There are thousands of Python modules and more are getting developed every day.
