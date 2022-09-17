@@ -28,4 +28,19 @@ import sys
 
 # Provided Solution
 
-answer = random.randint(1, 10)
+answer = random.randint(int(sys.argv[1]), int(sys.argv[2]))
+
+
+while True:
+    try:
+        guess = int(input(f"Guess a number {sys.argv[1]} ~ {sys.argv[2]}:\n"))
+        if 0 < guess < 11:
+            if guess == answer:
+                print("Good Job, you guessed it!")
+                break
+        else:
+            print(
+                f"Number needs to be between {sys.argv[1]} and {sys.argv[2]}")
+    except ValueError:
+        print("Please enter a number")
+        continue
