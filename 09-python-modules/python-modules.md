@@ -9,6 +9,12 @@
 
 - `import` - The import keyword is used to import modules.
 
+## Loop Tips
+
+- `break` - The break statement in Python terminates the current loop and resumes execution at the next statement, just like the traditional break found in C. The most common use for break is when some external condition is triggered requiring a hasty exit from a loop. The break statement can be used in both while and for loops.
+- `continue` - The continue statement in Python returns the control to the beginning of the while loop. The continue statement rejects all the remaining statements in the current iteration of the loop and moves the control back to the top of the loop. The continue statement can be used in both while and for loops.
+- `else` - Python supports to have an else statement associated with a loop statements. If the else statement is used with a for loop, the else statement is executed when the loop has exhausted iterating the list. If the else statement is used with a while loop, the else statement is executed when the condition becomes false.
+
 ## Packages
 
 - Package is a folder containing modules
@@ -30,3 +36,8 @@
 - help(module) - Shows manual for module
 - dir(module) - Shows the functions available from module
 - random - Nice random module, does a few random functions such as randint, shuffle, choice
+
+## Package index
+
+- Built in modules are referred to as the standard library
+- Lots of other libraries have been built for py that can be imported - used with pip install, kinda like npm?
