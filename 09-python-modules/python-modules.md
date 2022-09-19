@@ -41,3 +41,9 @@
 
 - Built in modules are referred to as the standard library
 - Lots of other libraries have been built for py that can be imported - used with pip install, kinda like npm?
+- [Python package index](https://pypi.org/)
+- Check standard py library first before using a community package
+
+## PIP install
+
+- Use terminal to install, command usually in package
