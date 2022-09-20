@@ -49,3 +49,10 @@
 - Use terminal to install, command usually in package
 - To install `pip install package-name`
 - To uninstall `pip uninstall package-name`
+- Can install older version `pip install package-name ==0.5.0`
+- Can update packages `pip install package-name --upgrade` or `pip install package-name -U`
+
+## Virtual Environments
+
+- PyCharm has virtual environment built in
+- PyCharm better for larger projects
