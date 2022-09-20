@@ -47,3 +47,5 @@
 ## PIP install
 
 - Use terminal to install, command usually in package
+- To install `pip install package-name`
+- To uninstall `pip uninstall package-name`
