@@ -56,3 +56,10 @@
 
 - PyCharm has virtual environment built in
 - PyCharm better for larger projects
+- pipenv a lower end solution `pip install pipenv`
+
+## Useful modules - from collections
+
+- `counter` - Creates dict and counts how many times item occurs in iterable
+- `defaultdict` - Dict with default factory, The default factory is called without arguments to produce a new value when a key is not present
+- `OrderedDict` - Dictionary that remembers insertion order
