@@ -37,14 +37,14 @@
 - dir(module) - Shows the functions available from module
 - random - Nice random module, does a few random functions such as randint, shuffle, choice
 
-## Package index
+## Package Index
 
 - Built in modules are referred to as the standard library
 - Lots of other libraries have been built for py that can be imported - used with pip install, kinda like npm?
 - [Python package index](https://pypi.org/)
 - Check standard py library first before using a community package
 
-## PIP install
+## PIP Install
 
 - Use terminal to install, command usually in package
 - To install `pip install package-name`
@@ -58,8 +58,16 @@
 - PyCharm better for larger projects
 - pipenv a lower end solution `pip install pipenv`
 
-## Useful modules - from collections
+## Useful modules - from collections & datetime &
 
 - `counter` - Creates dict and counts how many times item occurs in iterable
 - `defaultdict` - Dict with default factory, The default factory is called without arguments to produce a new value when a key is not present
+- Dict are now ordered by default in py 3.7, so only need to use OrderedDict in older codebases
 - `OrderedDict` - Dictionary that remembers insertion order
+- `datetime` - Concrete date/time and related types
+- `array` - Return a new array whose items are restricted by typecode, and initialized from the optional initializer value, faster than list
+
+## Developer Fundamentals
+
+- Packages are not always the best idea, they can be coded badly, can have bugs, security exploits, out of date
+- Libraries that are added add weight, they slow down the execution, use when writing something yourself will take longer than using library
