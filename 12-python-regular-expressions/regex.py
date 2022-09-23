@@ -1,7 +1,8 @@
 import re
 
-pattern = re.compile(r"([a-zA-Z]).([a])")
-string = "Search inside of this text please!"
+email_regex = re.compile(
+    r"(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)")
+string = "b@b.com"
 
 # Simple way to search for text inside string, returns bool
 # print("Search" in string)
@@ -10,5 +11,10 @@ string = "Search inside of this text please!"
 a = re.search("thiste", string)
 
 # Using pattern to search
-b = pattern.search(string)
+b = email_regex.search(string)
 print(b)
+
+if b:
+    print("email accepted")
+else:
+    print("fix your email input")
