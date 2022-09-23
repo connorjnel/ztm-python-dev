@@ -9,9 +9,9 @@ regex = re.compile(
     r"^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d$%#@]{8,15}$")
 self_made_regex = re.compile(r"[a-zA-Z0-9$%#@]{8,}\d")
 
-user_password = "abcddsfsdfh523$"
+relax_guardian = "abcddsfsdfh523$"
 
-password = regex.fullmatch(user_password)
+password = regex.fullmatch(relax_guardian)
 
 if password:
     print("Password is acceptable")
