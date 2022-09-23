@@ -28,3 +28,9 @@
 - `./` - current folder
 - `../` - one folder up
 - py built in module for filesystem paths, `pathlib`, creates path that works with windows and linux systems
+
+## IO errors
+
+- Good practice to put io into a try block
+- `IOError` - generally used in except
+- `FileNotFoundError` - also used in except

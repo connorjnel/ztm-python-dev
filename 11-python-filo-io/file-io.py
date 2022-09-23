@@ -3,5 +3,9 @@
 # print(my_file.read())
 # my_file.close()
 
-with open("app/sad.txt", mode="r") as my_file:
-    print(my_file.read())
+try:
+    with open("app/sad.xt", mode="r") as my_file:
+        print(my_file.read())
+except FileNotFoundError as err:
+    print("File does not exist")
+    raise err
