@@ -1,5 +1,11 @@
-def do_stuff(num):
+from typing import Type
+
+
+def do_stuff(num=0):
     try:
-        return int(num) + 5
+        if num:
+            return int(num) + 5
+        else:
+            return "Please Enter Number"
     except ValueError as err:
         return err
