@@ -1,6 +1,3 @@
-from typing import Type
-
-
 def do_stuff(num=0):
     try:
         if num:

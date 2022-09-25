@@ -20,7 +20,8 @@
 - Test code doenst need to be refactored and optimized, readability is the core concern
 - Make sure unit tests only run on correct page using `__name__`
 - Run all test files - `py -m unittest`, make sure your in correct folder first.
-- Can run all verbose using `py -m unittest - v`, shows full output of tests
+- Can run all tests with verbose using `py -m unittest -v`, shows full output of tests
 - Can add doctring to tests for more verbose output
 - `def setUp(self)` - Set up something before each test, default variable, print to terminal
 - `def tearDown(self)` - Run after each test, print to terminal, reset variables etc
+- Code written using functional programming much easier to write tests for
