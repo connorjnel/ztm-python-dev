@@ -25,3 +25,4 @@
 - `def setUp(self)` - Set up something before each test, default variable, print to terminal
 - `def tearDown(self)` - Run after each test, print to terminal, reset variables etc
 - Code written using functional programming much easier to write tests for
+- Try to test 90% of your code, dont write a test for a one in a million edge case
