@@ -2,11 +2,10 @@
 # First arg (folder-name, new folder)
 
 # from sys first and second arg
-
 # check is destination folder exists, if not create it
-
 # loop through source folder, convert images to png
 
+# My solution, initial code from medium, added image resize and quality tweak
 
 from PIL import Image
 import sys
@@ -30,3 +29,20 @@ if os.path.exists(path):
                        optimize=True, quality=80)
 else:
     print(f'Directory {path} does not exists')
+
+# Course Solution
+
+# path = sys.argv[1]
+# directory = sys.argv[2]
+
+# if not os.path.exists(directory):
+#     os.makedirs(directory)
+
+
+# for filename in os.listdir(path):
+#   clean_name = os.path.splitext(filename)[0]
+#   img = Image.open(f'{path}{filename}')
+#   #added the / in case user doesn't enter it. You may want to check for this
+#   and add or remover it.
+#   img.save(f'{directory}/{clean_name}.png', 'png')
+#   print('all done!')

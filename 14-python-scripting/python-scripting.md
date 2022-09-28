@@ -24,3 +24,9 @@ Allows you to run tasks easily using python, image processing, checking password
 - `img.resize((300,300))` - resize image, has to be tuple
 - `img.crop(crop-tuple)` - crop image, has seperate box model for crop as a tuple, can input the crop box directly as a tuple ie `img.crop((5,5,5,5))`
 - `img.thumbnail((400,400))` - Creates thumbnail with size specified, doesnt return new image so dont save to var
+- os library from py very useful, basically powerful IO
+- opencv - deals with computer vision, can analyze images
+
+## PyPDF2 - PDF processing
+
+- `pip install PyPDF2==1.26` - Version used for course
