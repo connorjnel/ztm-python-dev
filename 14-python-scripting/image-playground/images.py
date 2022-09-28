@@ -19,12 +19,10 @@ from PIL import Image, ImageFilter
 # crop.show()
 
 
-# Astro image exercise
-# Import image
-astro = Image.open("./astro.jpg")
-# Resize image thumbnail
-astro.thumbnail((400, 400))
-# Save Image
-astro.save("astro_thumb.png")
-
-# JPG to PNG Converter
+# # Astro image exercise
+# # Import image
+# astro = Image.open("./astro.jpg")
+# # Resize image thumbnail
+# astro.thumbnail((400, 400))
+# # Save Image
+# astro.save("astro_thumb.png")
