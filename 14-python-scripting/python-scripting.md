@@ -30,3 +30,9 @@ Allows you to run tasks easily using python, image processing, checking password
 ## PyPDF2 - PDF processing
 
 - `pip install PyPDF2==1.26` - Version used for course
+- `import PyPDF2` - standard import
+- `PyPDF2.PdfFileReader(file)` - read pdf file
+- When using `with open` on pdf files add `"rb"` as mode so it opens it in binary mode
+- `writer = PyPDF2.PdfFileWriter()` - create a pdf writer
+- Tip - `inputs = sys.argv[1:]` - grab all sys arguments as a list
+- `merger.append(pdf)` - very simple way to combine pdfs
