@@ -6,11 +6,6 @@ Allows you to run tasks easily using python, image processing, checking password
 
 - Pick the right library - check for ones with lots of git stars, forks. Check for security issues
 
-## Image Processing
-
-- Image gets processed, compresses it, adds filter, crops image, creates a few different sizes
-- Pillow - Image processing library
-
 ## PIL / Pillow - Image Processing
 
 - `pip install Pillow` - install pillow
@@ -36,3 +31,6 @@ Allows you to run tasks easily using python, image processing, checking password
 - `writer = PyPDF2.PdfFileWriter()` - create a pdf writer
 - Tip - `inputs = sys.argv[1:]` - grab all sys arguments as a list
 - `merger.append(pdf)` - very simple way to combine pdfs
+- clean syntax for open file `template = PyPDF2.PdfFileReader(open("super.pdf", "rb"))`
+- `getNumPages` - method to get page count, useful for looping
+- `merge_page` - use for watermarking in a loop

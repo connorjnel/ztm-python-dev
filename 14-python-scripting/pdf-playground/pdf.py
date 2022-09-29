@@ -1,6 +1,5 @@
 import PyPDF2
 import sys
-import os
 
 # with open("dummy.pdf", "rb") as file:
 #     reader = PyPDF2.PdfFileReader(file)
@@ -29,34 +28,14 @@ import os
 
 # watermark all pages of a specified file
 
-from pathlib import Path
-from typing import Union, Literal, List
-from PyPDF2 import PdfWriter, PdfReader
+template = PyPDF2.PdfFileReader(open("super.pdf", "rb"))
+watermark = PyPDF2.PdfFileReader(open("wtr.pdf", "rb"))
+output = PyPDF2.PdfFileWriter()
 
+for i in range(template.getNumPages()):
+    page = template.getPage(i)
+    page.mergePage(watermark.getPage(0))
+    output.addPage(page)
 
-def stamp(
-    content_pdf: Path,
-    stamp_pdf: Path,
-    pdf_result: Path,
-    page_indices: Union[Literal["ALL"], List[int]] = "ALL",
-):
-    reader = PdfReader(stamp_pdf)
-    image_page = reader.pages[0]
-
-    writer = PdfWriter()
-
-    reader = PdfReader(content_pdf)
-    if page_indices == "ALL":
-        page_indices = list(range(0, len(reader.pages)))
-    for index in page_indices:
-        content_page = reader.pages[index]
-        mediabox = content_page.mediabox
-        content_page.merge_page(image_page)
-        content_page.mediabox = mediabox
-        writer.add_page(content_page)
-
-    with open(pdf_result, "wb") as fp:
-        writer.write(fp)
-
-
-stamp("super.pdf", "wtr.pdf", "super2.pdf")
+    with open("watermarked.pdf", "wb") as file:
+        output.write(file)
