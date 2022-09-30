@@ -34,3 +34,7 @@ Allows you to run tasks easily using python, image processing, checking password
 - clean syntax for open file `template = PyPDF2.PdfFileReader(open("super.pdf", "rb"))`
 - `getNumPages` - method to get page count, useful for looping
 - `merge_page` - use for watermarking in a loop
+
+## Email Module - Email processing
+
+- `import email` - standard library import, no install
