@@ -38,3 +38,5 @@ Allows you to run tasks easily using python, image processing, checking password
 ## Email Module - Email processing
 
 - `import email` - standard library import, no install
+- `import smtplib` - smtp library, create smtp server
+- Dont save passwords in the clear on repos
