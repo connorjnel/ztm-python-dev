@@ -40,3 +40,10 @@ Allows you to run tasks easily using python, image processing, checking password
 - `import email` - standard library import, no install
 - `import smtplib` - smtp library, create smtp server
 - Dont save passwords in the clear on repos
+- Set email body and structure using EmailMessage object, then do smtp connection with host and port as well as credentials
+- Can use email templates when doing emails
+- `from string import Template` - Substitute variables inside text, ie string interpolation in emails, handy
+- `from pathlib import Path` - Basic IO module, kinda like OS
+- `Template(Path("index.html").read_text())` - import file as text with pathlib and as a template for use with template
+- TIP - Start using pathlib instead instead of OS, more friendly
+- When using set content and substitute need to set content type to HTML
