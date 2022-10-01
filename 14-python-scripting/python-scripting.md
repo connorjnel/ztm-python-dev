@@ -47,3 +47,13 @@ Allows you to run tasks easily using python, image processing, checking password
 - `Template(Path("index.html").read_text())` - import file as text with pathlib and as a template for use with template
 - TIP - Start using pathlib instead instead of OS, more friendly
 - When using set content and substitute need to set content type to HTML
+
+## Password Checker
+
+- `pip install requests` - import for simple http requests
+- Always save passwords hashed
+
+### Hash Function
+
+- Function that generates a value of fixed length for each input it gets.
+- Used in hash tables, advanced data structure
