@@ -52,6 +52,7 @@ Allows you to run tasks easily using python, image processing, checking password
 
 - `pip install requests` - import for simple http requests
 - Always save passwords hashed
+- `import hashlib` - built in py library for hashing, read doc when using, complicated
 
 ### Hash Function
 
