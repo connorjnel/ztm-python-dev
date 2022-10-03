@@ -76,3 +76,4 @@ Allows you to run tasks easily using python, image processing, checking password
 - Twilio has code for dif langauges pre written, just need to grab auth details and plug them in
 - Free account is limited but good enough for testing
 - Can call the twilio function as a module in another function, ie have a function checking the web for something then send a message using twilio once condition is met, very cool but still, hate twilio and their dumb auth errors
+- When you are using library, api for the first time, google it, check documentation, if your stuck stack overflow, test and make it work
