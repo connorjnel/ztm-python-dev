@@ -61,3 +61,10 @@ Allows you to run tasks easily using python, image processing, checking password
 - Function that generates a value of fixed length for each input it gets.
 - Used in hash tables, advanced data structure
 - The most common hash functions used in digital forensics are Message Digest 5 (MD5), and Secure Hashing Algorithm (SHA) 1 and 2.
+
+## Twitter Bot
+
+- Skipped because api wanted phone number, NFW, copied project code and watched instructions but not tested
+- Use tweepy library
+
+## SMS with PY
