@@ -68,3 +68,11 @@ Allows you to run tasks easily using python, image processing, checking password
 - Use tweepy library
 
 ## SMS with PY
+
+- Use twilio for SMS, voice etc
+- `pip3 install twilio` - twilio library, not standard
+- Despise twilio, cant login because I tried to login? WTF
+- Again unable to test, watched instructions, think I dislike API's now purely because of Twitter and Twilio being AHOLES
+- Twilio has code for dif langauges pre written, just need to grab auth details and plug them in
+- Free account is limited but good enough for testing
+- Can call the twilio function as a module in another function, ie have a function checking the web for something then send a message using twilio once condition is met, very cool but still, hate twilio and their dumb auth errors
