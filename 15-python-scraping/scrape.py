@@ -11,18 +11,20 @@ soup = BeautifulSoup(res.text, 'html.parser')
 links = soup.select(".title a")
 
 # Grab all votes items with score class
-votes = soup.select(".score")
+subtext = soup.select('.subtext')
+
 
 # Function for displaying the scraped data
-
-
-def create_custom_hn(links, votes):
+def create_custom_hn(links, subtext):
     hn = []
     for idx, item in enumerate(links):
-        title = links[idx].getText()
-        href = links[idx].get('href', None)
-        hn.append({'title': title, 'link': href})
+        title = item.getText()
+        href = item.get('href', None)
+        vote = subtext[idx].select('.score')
+        if len(vote):
+            points = int(vote[0].getText().replace(' points', ''))
+            hn.append({'title': title, 'link': href, 'votes': points})
     return hn
 
 
-print(create_custom_hn(links, votes))
+print(create_custom_hn(links, subtext))
