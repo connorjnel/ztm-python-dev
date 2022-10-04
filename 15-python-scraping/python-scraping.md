@@ -29,3 +29,4 @@
 - `soup.find('a')` - find first link, can use for html
 - `soup.select('.class')` - find all css class, use dot notation
 - `soup.select_one('.class')` - find first css class, use dot notation
+- `soup.select('#id')` - find all id, use pound notation
