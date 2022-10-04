@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import pprint
 
 # Page we are scraping
 res = requests.get('https://news.ycombinator.com/news')
@@ -8,7 +9,7 @@ res = requests.get('https://news.ycombinator.com/news')
 soup = BeautifulSoup(res.text, 'html.parser')
 
 # Grab all links with title class
-links = soup.select(".title a")
+links = soup.select('.titleline')
 
 # Grab all votes items with score class
 subtext = soup.select('.subtext')
@@ -23,8 +24,9 @@ def create_custom_hn(links, subtext):
         vote = subtext[idx].select('.score')
         if len(vote):
             points = int(vote[0].getText().replace(' points', ''))
-            hn.append({'title': title, 'link': href, 'votes': points})
+            if points > 99:
+                hn.append({'title': title, 'link': href, 'votes': points})
     return hn
 
 
-print(create_custom_hn(links, subtext))
+pprint.pprint(create_custom_hn(links, subtext))
