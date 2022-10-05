@@ -31,3 +31,9 @@
 - `soup.select_one('.class')` - find first css class, use dot notation
 - `soup.select('#id')` - find all id, use pound notation
 - debug - index out of range could be because one enumerable didnt have a corresponding value
+- Tip - When using sorted and typerror for dict, then use a lambda for key
+
+## Scrapy Framework
+
+- Scraping framework [Scrapy](https://scrapy.org/)
+- Better for large scraping projects, BS4 just for small scripts basically
