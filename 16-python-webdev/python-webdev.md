@@ -1,6 +1,6 @@
 # Python Web Dev
 
-- Tip - Can use frozen flask to deploy site to netlify instead of normal flask
+- Can use frozen flask to deploy site to netlify instead of normal flask
 
 ## Setting up flask
 
@@ -13,7 +13,7 @@
 
 ## Building a flask server
 
-- Tip - Use pip freeze to generate requirements file for use with new environment, dont want to load a venv to repo as it likely wont work
+- Use pip freeze to generate requirements file for use with new environment, dont want to load a venv to repo as it likely wont work
 - Folders need to be correct, if flask is in venv folder then make sure server.py is in venv folder
 - Flask - Follow the quickstart guide for setting up basic server
 - `flask --app server.py run` - Start server
