@@ -19,4 +19,10 @@
 - `flask --app server.py run` - Start server
 - `export FLASK_APP=server.py` - set environment variable for server
 - `flask run` - Run command once the envar has been set up
+- `. activate` - run within venv/scripts to start virtual environment
 - `deactivate` - exit virtual environment
+- Enabling debug mode will auto restart server each time a code change occurs, good for dev, major security risk though so never on production
+- Enable debug mode - `export FLASK_DEBUG=on`
+- Creating route - `@app.route("/path")`
+- Render html template - in func under path `return render_template("html")` - Need to place them in templates folder
+- linking css and js files are more complicated than with normal html linking, place them in static folder, `static/style.css`, can also use django static method
