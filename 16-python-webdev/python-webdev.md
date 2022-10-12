@@ -27,4 +27,4 @@
 - Render html template - in func under path `return render_template("html")` - Need to place them in templates folder
 - linking css and js files are more complicated than with normal html linking, place them in static folder, `static/style.css`, can also use django static method
 - Favicon, can just link in html using `<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">`
-- For templating in py use Jinja
+- For templating in py use Jinja - `pip install Jinja2`
