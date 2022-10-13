@@ -1,0 +1,25 @@
+body {
+    background-color: steelblue;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+h1 {
+    color: #fff;
+}
+
+.move {
+    transform: rotate(360deg);
+    transition: 2.525s ease;
+}
