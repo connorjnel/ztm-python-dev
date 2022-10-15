@@ -27,5 +27,11 @@
 - Render html template - in func under path `return render_template("html")` - Need to place them in templates folder
 - linking css and js files are more complicated than with normal html linking, place them in static folder, `static/style.css`, can also use django static method
 - Favicon, can just link in html using `<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">`
+
+## Jinja - Templating Engine
+
 - For templating in py use Jinja - `pip install Jinja2`
-- Testing
+- `{{}}` - Enclose some code to evaluate it as python, can insert into html docs when using flask
+- `url_for` - Safer way to build urls, urls are dynamic
+- variable rules - way to pass dynamic data into
+- You can add variable sections to a URL by marking sections with `<variable_name>`. Your function then receives the `<variable_name>` as a keyword argument.
