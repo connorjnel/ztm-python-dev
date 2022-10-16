@@ -35,3 +35,7 @@
 - `url_for` - Safer way to build urls, urls are dynamic
 - variable rules - way to pass dynamic data into
 - You can add variable sections to a URL by marking sections with `<variable_name>`. Your function then receives the `<variable_name>` as a keyword argument.
+
+## MIME Type
+
+- A MIME type is a label used to identify a type of data. It is used so software can know how to handle the data. It serves the same purpose on the Internet that file extensions do on Microsoft Windows.
