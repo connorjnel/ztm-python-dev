@@ -39,3 +39,4 @@
 ## MIME Type
 
 - A MIME type is a label used to identify a type of data. It is used so software can know how to handle the data. It serves the same purpose on the Internet that file extensions do on Microsoft Windows.
+- Types include applicaton, audio, font, image, mnodel, text, video
