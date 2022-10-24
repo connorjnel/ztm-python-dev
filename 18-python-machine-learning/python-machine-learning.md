@@ -11,4 +11,4 @@
 ## Machine Learning
 
 - Teaching a computer to recognise something.
-- Recognise a snake - Give a hundred images with snakes, tell computer all the images have a snake, now write a function/model to recognise snakes. Theoretically the more images/examples I give, the more refined the model becomes. Need to make sure the input is good, bad input equals bad output, bad input will create a bad model0
+- Recognise a snake - Give a hundred images with snakes, tell computer all the images have a snake, now write a function/model to recognise snakes. Theoretically the more images/examples I give, the more refined the model becomes. Need to make sure the input is good, bad input equals bad output, bad input will create a bad model
